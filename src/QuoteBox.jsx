@@ -3,7 +3,7 @@ import phrases from './quotes.json'
 import './Style.css'
 const QuoteBox = () => {
 
-  console.log(phrases)
+  
   const [count, setCount] = useState(0);
   const changeColors = ["lightgreen", "lightcoral", "lightblue", "aquamarine", "lightgray", "lightsalmon", "lightseagreen", "chocolate", "lightsteelblue"]
 
